@@ -1,0 +1,386 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+
+@page {
+    /* margin-top: 1.73cm; */
+    margin-top: 1.055cm;
+    margin-left: 3.226cm;
+}
+
+.bg-min-verso{
+    width: 8.5767cm;
+    height: 5.3768cm;
+    background: url("../images/credenciais/bg-ministro-verso.png");
+    -webkit-print-color-adjust: exact;
+    background-position: center top;
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    border-radius: 0.2cm;
+}
+.bg-min-frente{
+    width: 8.5767cm;
+    height: 5.3768cm;
+    background: url("../images/credenciais/bg-ministro-frente.png");
+    -webkit-print-color-adjust: exact;
+    background-position: center top;
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    border-radius: 0.2cm;
+}
+
+.foto{
+    width: 2.05cm;
+    height: 2.65cm;
+    background-color: white;
+    /* float: left; */
+    margin-left: 6.20cm;
+    margin-top: 0.25cm;
+    border: 0.07cm solid white;
+    border-radius: 0.2cm;
+}
+
+
+
+
+
+
+
+.name{
+    margin-left: 0.40cm;
+    margin-top: -0.55cm;
+    margin-bottom: 0.34cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* background-color: pink; */
+    width: 5.75cm;
+    display: table;
+}
+.atividade{
+    margin-top: 0.05cm;
+    margin-left: 0.40cm;
+    margin-right: 0cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    /*background-color: pink;*/
+    width: 2.5cm;
+    float: left;
+}
+.funcao{
+    float: left;
+    margin-top: 0.05cm;
+    margin-left: -0.58cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    width: 5cm;
+    height: 0.56cm;
+    /*background-color: red;*/
+}
+.nome-conselho{
+    float: left;
+    margin-top: -0.02cm;
+    font: 0.18cm arial;
+    width: 5cm;
+    height: 0.56cm;
+    /*background-color: red;*/
+}
+
+.matricula{
+    margin-top: 0.04cm;
+    margin-left: -2.6cm;
+    margin-right: 0cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    /*background-color: pink;*/
+    width: 2.5cm;
+    float: left;
+}
+.filiacao{
+    margin-top: 0.2cm;
+    float: left;
+    margin-left: 0.40cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    width: 3.4cm;
+    /* background-color: red; */
+}
+.consagracao{
+    margin-top: 0.2cm;
+    margin-left: 0.08cm;
+    margin-right: 0cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    width: 2.5cm;
+    float: left;
+    /* background-color: pink; */
+}
+.ordenacao{
+    margin-top: 0.45cm;
+    float: left;
+    margin-left: 0.40cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    width: 3.4cm;
+    /* background-color: red; */
+
+    /* background-color: red; */
+}
+.validade-frente{
+    margin-top: 0.45cm;
+    margin-left: 0.08cm;
+    margin-right: 0cm;
+    font: 0.22cm arial;
+    font-weight: 600;
+    width: 2.5cm;
+    float: left;
+    /* background-color: pink; */
+    /* background-color: red; */
+}
+
+
+
+
+.rg{
+    font: 0.22cm arial;
+    font-weight: 600;
+    margin-top: 0.55cm;
+    margin-left: 1.8cm;
+    width: 3.1cm;
+    float: left;
+    /* background-color: red; */
+
+}
+.emissao{
+    font: 0.22cm arial;
+    font-weight: 600;
+    margin-top: 0.55cm;
+    margin-left: 0.05cm;
+    float: left;
+    width: 2cm;
+    /* background-color: blue; */
+
+}
+.cpf{
+    font: 0.22cm arial;
+    font-weight: 600;
+    margin-top: 0.38cm;
+    margin-left: 1.8cm;
+    width: 3.1cm;
+    float: left;
+    /* background-color: red; */
+}
+.validade{
+    font: 0.22cm arial;
+    font-weight: 600;
+    margin-top: 0.38cm;
+    margin-left: 0.05cm;
+    float: left;
+    width: 2cm;
+    /* background-color: blue; */
+}
+
+.qr-code{
+    float: right;
+    margin-top: 1.6cm;
+    margin-right: 0.60cm;
+}
+
+.fone{
+    float: right;
+    font: 0.23cm arial;
+    color: #272525;
+    margin-top: 3.37cm;
+    font-weight: bold;
+    float: left;
+    margin-left: 0.3cm;
+    width: 3.4cm;
+    height: 0.5cm;
+}
+
+
+
+
+/* configuração cartão missionária */
+
+.bg-mis-frente{
+    width: 8.5767cm;
+    height: 5.3668cm;
+    background: url("../images/credenciais/bg-missionaria-frente.png");
+    -webkit-print-color-adjust: exact;
+    background-position: center top;
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    border-radius: 0.2cm;
+}
+.bg-mis-verso{
+    width: 8.5767cm;
+    height: 5.3768cm;
+    background: url("../images/credenciais/bg-missionaria-verso.png");
+    -webkit-print-color-adjust: exact;
+    background-position: center top;
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    border-radius: 0.2cm;
+}
+
+.info-miss{
+    float: left;
+    /*border: solid 2px red;*/
+    padding-top: 2.1cm;
+    padding-left: 0cm;
+    width: 6.4cm;
+
+}
+.img-miss{
+    float: left;
+    /*border: solid 2px red;*/
+    padding-top: 2.1cm;
+    padding-left: 0cm;
+    width: 2.06cm;
+}
+
+
+
+
+
+
+.matricula-mis{
+    margin-left: 0.39cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    width: 1.15cm;
+    display: table;
+    float: left;
+}
+
+.name-mis{
+    margin-left: 0.20cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    text-transform: uppercase;
+    float: left;
+    width: 4.6cm;
+    display: table;
+}
+
+.atividade-mis{
+    margin-left: 0.39cm;
+    margin-top: 0.05cm;
+    font-weight: 600;
+    font: 0.22cm arial;
+    width: 3.10cm;
+    display: table;
+    float: left;
+}
+
+.filiacao-mis{
+    margin-left: 0.10cm;
+    margin-top: 0.08cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    float: left;
+    width: 2.75cm;
+    display: table;
+}
+
+.rg-mis{
+    margin-left: 0.39cm;
+    margin-top: 0.08cm;
+    font: 0.22cm arial;
+    width: 3.10cm;
+    display: table;
+    float: left;
+}
+
+.cpf-mis{
+    margin-left: 0.10cm;
+    margin-top: 0.08cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    float: left;
+    width: 2.75cm;
+    display: table;
+}
+
+.emissao-mis{
+    margin-left: 0.39cm;
+    /*background-color: pink;*/
+    margin-top: 0.07cm;
+    font: 0.22cm arial;
+    width: 3.10cm;
+    display: table;
+    float: left;
+}
+.validade-mis{
+    margin-left: 0.10cm;
+    margin-top: 0.07cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    float: left;
+    width: 2.75cm;
+    display: table;
+}
+.conjuge-mis{
+    margin-left: 0.4cm;
+    margin-top: 0.10cm;
+    margin-bottom: -0.5cm;
+    font: 0.22cm arial;
+    /*background-color: pink;*/
+    float: left;
+    width: 6.14cm;
+    display: table;
+}
+
+
+
+
+.foto-mis{
+    width: 1.80cm;
+    height: 2.15cm;
+    background-color: white;
+    margin-top: -0.70cm;
+
+    border: 0.07cm solid white;
+    border-radius: 0.2cm;
+}
+
+.qr-code-mis{
+    float: left;
+    margin-top: 3.29cm;
+    margin-left: 3.33cm;
+}
+
+.fone-mis{
+    float: right;
+    font: 0.22cm arial;
+    color: #272525;
+    margin-top: -0.49cm;
+    font-weight: bold;
+    float: left;
+    margin-left: 0.3cm;
+    width: 3.4cm;
+    height: 0.5cm;
+}
+
+
+
+
+
+.page-break {
+    page-break-after: always;
+}

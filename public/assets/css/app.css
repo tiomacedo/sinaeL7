@@ -1,0 +1,43 @@
+.manager{
+    margin-bottom: 20px;
+}
+.divisory{
+    border-bottom: 1px solid #bbb; 
+}
+
+.ficha-view {
+    width: 130px;
+    height: 150px;
+    float: right;
+    margin-top: -120px;
+    margin-bottom: -20px;
+}
+
+.table-smal-text {
+    font-size: 7pt;
+}
+
+.invoice-tr{
+    border-bottom: 1px solid #ccc; 
+}
+.invoice-tr-1{
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc; 
+}
+
+
+/*@media print {
+  body * {
+    visibility: hidden;
+  }
+  .printable, .printable * {
+    visibility: visible;
+      width: 100%;
+  }
+  .printable {
+      width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}*/
